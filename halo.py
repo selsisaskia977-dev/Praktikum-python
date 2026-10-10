@@ -18,7 +18,7 @@ def main():
 
             if tahun_lahir > tahun_sekarang or tahun_lahir < 1900:
                 print(f"Tahun lahir harus antara 1900 dan {tahun_sekarang}. Silakan coba lagi.\n")
-                contiune
+                continue
 
             usia = tahun_sekarang - tahun_lahir
             print(f"\nPerkiraan usia Anda saat ini adalah {usia} tahun.")
